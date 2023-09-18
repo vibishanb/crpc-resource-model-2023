@@ -1,3 +1,6 @@
+
+[![DOI](https://zenodo.org/badge/692395824.svg)](https://zenodo.org/badge/latestdoi/692395824)
+
 ## How to run
 - You'll need all the packages listed in [requirements.txt](./requirements.txt).
 	- If you use anaconda all the packages are installed by default
@@ -21,4 +24,6 @@
 - In order to run some the simulation in some pre-determined parameter space:
 	- Ensure EnvEq.py, input.py and parallelizer.py are in the same directory.
 	- Change parameter values as required in input.py
-	- If needed, parameters over which simualations must be parallelized can be saved in a .csv file and passed through parallelizer.py. 
+	- If needed, parameters over which simualations must be parallelized can be saved in a .csv file and passed through parallelizer.py.
+
+See latest release notes for further details of repo contents. 
